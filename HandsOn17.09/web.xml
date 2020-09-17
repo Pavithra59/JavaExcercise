@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+<servlet>
+ <servlet-name>PostServlet</servlet-name>
+ <servlet-class>com.pack.PostServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+ <servlet-name>PostServlet</servlet-name>
+ <url-pattern>/PostServlet</url-pattern>
+</servlet-mapping>
+<servlet>
+ <servlet-name>SourceServlet</servlet-name>
+ <servlet-class>com.cts.SourceServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+ <servlet-name>SourceServlet</servlet-name>
+ <url-pattern>/SourceServlet</url-pattern>
+</servlet-mapping>
+<servlet>
+ <servlet-name>DestinationServlet</servlet-name>
+ <servlet-class>com.cts.DestinationServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+ <servlet-name>DestinationServlet</servlet-name>
+ <url-pattern>/DestinationServlet</url-pattern>
+</servlet-mapping>
+<servlet>
+ <servlet-name>FirstServlet</servlet-name>
+ <servlet-class>com.pack.FirstServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+ <servlet-name>FirstServlet</servlet-name>
+ <url-pattern>/FirstServlet</url-pattern>
+</servlet-mapping>
+<servlet>
+ <servlet-name>SecondServlet</servlet-name>
+ <servlet-class>com.pack.SecondServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+ <servlet-name>SecondServlet</servlet-name>
+ <url-pattern>/SecondServlet</url-pattern>
+</servlet-mapping>
+</web-app>
